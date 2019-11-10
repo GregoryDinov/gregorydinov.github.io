@@ -1,0 +1,728 @@
+/* For button */
+.btn:hover, btn:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+button:hover, button:focus {
+  outline: none;
+  border: none;
+}
+
+/* For h button */
+a, a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+
+/* header */
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('images/paris1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.nav-wrapper {
+  width: 100%;
+  position: fixed;
+  border-radius: 0px 0px 20px 20px;
+  padding-bottom: 15px;
+}
+
+.nav-home-logo-button {
+  display: inline;
+  padding: 20px 0px 0px 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  color: blue;
+}
+
+.nav-home-button {
+  display: inline;
+  padding: 20px 0px 0px 5px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: blue;
+}
+
+.download {
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  float: right;
+  padding: 0px; 
+  margin: 17px 20px 0px 0px;
+}
+.download img {
+  height: 30px;
+  width: 90px;
+}
+
+/* Header content */
+
+/* ***************** Carousel */
+.header-content {
+  width: 100%;
+  margin: auto;
+}
+
+.sub-title {
+  padding: 90px 0px 0px 0px;
+  /* margin: 90px 0px 0px 0px; */
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: blue;
+  text-align: center;
+}
+
+.logo-map {
+  margin: -10px 0px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  height: 80px;
+}
+/* ******************* */
+
+
+.title {
+  margin: 0px 20px 0px 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  color: blue;
+  text-align: center;
+}
+
+.paragraph {
+  margin: 20px 20px 0px 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+}
+
+.video-header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 30%;
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* Page content full width*/
+
+.page-content-full-width-1 {
+  width: 100%;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.sub-title1 {
+  margin: 20px 0px 0px 0px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: blue;
+  text-align: center;
+}
+
+.page-content-2 {
+  width: 100%;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  background-color: blue;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.sub-title1-for-dark-background {
+  margin: 20px 0px 0px 0px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.title-for-dark-background {
+  margin: 0px 20px 0px 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+.paragraph-for-dark-background {
+  margin: 20px 20px 0px 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.title-for-light-background {
+  margin: 0px 20px 0px 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  color: blue;
+  text-align: center;
+}
+
+.paragraph-for-light-background {
+  margin: 20px 20px 0px 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: blue;
+  text-align: center;
+}
+
+.page-content-3 {
+  width: 100%;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* footer */
+
+.footer {
+  border-radius: 20px 20px 0px 0px;
+   padding: 10px 0px 0px 0px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(0, 0, 50, 0.9);
+   margin-top: -20px;
+}
+
+.nav-pages {
+  text-align: center;
+  width: 50%;
+  height: 20px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.btn-group {
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  margin: auto;
+}
+
+/* FOR SMARTPHONES PORTRAIT DISPLAY */
+
+@media (min-width: 350px) and (min-height: 620px) {
+  .video-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+@media (min-width: 350px) and (min-height: 790px) {
+  .video-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+@media (min-width: 390px) and (min-height: 700px) {
+  .video-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 45%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+@media (min-width: 390px) and (min-height: 800px) {
+  .video-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 55%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+@media (min-width: 750px) and (min-height: 1000px) {
+  .video-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 47%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+@media (min-width: 1000px) and (min-height: 1200px) {
+  .video-header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+/* FOR SMARTPHONES LANDSCAPE DISPLAY */
+
+@media screen and (min-width: 550px) and (orientation: landscape) {
+  /* @media screen and (min-width: 550px) { */
+
+  /* Header content */
+
+  /* ***************** Carousel */
+  .header-content {
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  .sub-title {
+    padding: 90px 0px 0px 0px;
+    /* margin: 90px 0px 0px 0px; */
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+  }
+
+  .logo-map {
+    margin: -10px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+  }
+  /* ******************* */
+
+
+  .title {
+    width: 50%;
+    margin: 0px 20px 0px 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: blue;
+    text-align: center;
+  }
+
+  .paragraph {
+    width: 50%;
+    margin: 20px 20px 0px 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: blue;
+    text-align: center;
+  }
+
+  .video-header {
+    float: right;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: -270px 20px 0px 0px;
+    width: 27%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (orientation: landscape) {
+  
+  /* nav */
+    .nav-home-logo-button {
+      display: inline;
+      padding: 20px 0px 0px 100px;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 100;
+      font-size: 40px;
+      color: blue;
+    }
+    
+    .nav-home-button {
+      display: inline;
+      padding: 20px 0px 0px 5px;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 300;
+      font-size: 30px;
+      color: blue;
+    }
+    
+    .download {
+      border: none;
+      border-radius: 5px 5px 5px 5px;
+      float: right;
+      padding: 0px; 
+      margin: 17px 100px 0px 0px;
+    }
+    .download img {
+      height: 30px;
+      width: 90px;
+    }
+  /* Header content */
+
+  /* ***************** Carousel */
+  .header-content {
+    width: 50%;
+    padding-top: 100px;
+    margin-left: 60px;
+    margin-left: 100px;
+  }
+
+  .sub-title {
+    /* padding: 90px 0px 0px 38px; */
+
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: blue;
+    text-align: left;
+  }
+
+  .logo-map {
+    margin: -10px 0px 0px 17px;
+    width: 80px;
+    height: 80px;
+  }
+  /* ******************* */
+
+
+  .title {
+    width: 50%;
+    /* padding: 0px 0px 0px 77px; */
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: blue;
+    text-align: left;
+    margin-left: 100px;
+  }
+
+  .paragraph {
+    width: 50%;
+    margin: 20px 20px 0px 100px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: blue;
+    /* text-align: center; */
+    text-align: left;
+  }
+
+  .video-header {
+    float: right;
+    display: block;
+    margin: -240px 100px 0px 0px;
+    width: 30%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+
+/* For DESKTOP LANDSCAPE */
+
+@media screen and (min-width: 1600px) and (orientation: landscape) {
+  
+  /* nav */
+    .nav-home-logo-button {
+      display: inline;
+      padding: 20px 0px 0px 300px;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 100;
+      font-size: 40px;
+      color: blue;
+    }
+    
+    .nav-home-button {
+      display: inline;
+      padding: 20px 0px 0px 5px;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 300;
+      font-size: 30px;
+      color: blue;
+    }
+    
+    .download {
+      border: none;
+      border-radius: 5px 5px 5px 5px;
+      float: right;
+      padding: 0px; 
+      margin: 17px 300px 0px 0px;
+    }
+    .download img {
+      height: 30px;
+      width: 90px;
+    }
+  /* Header content */
+
+  /* ***************** Carousel */
+  .header-content {
+    width: 50%;
+    padding-top: 100px;
+    margin-left: 300px;
+  }
+
+  .sub-title {
+    padding: 90px 0px 0px 0px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: blue;
+    text-align: left;
+  }
+
+  .logo-map {
+    margin: -10px 0px 0px -20px;
+    width: 80px;
+    height: 80px;
+  }
+  /* ******************* */
+
+
+  .title {
+    width: 50%;
+    padding: 0px 0px 0px 0px;
+    margin-left: 300px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: blue;
+    text-align: left;
+  }
+
+  .paragraph {
+    width: 50%;
+    margin: 20px 20px 0px 300px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: blue;
+    text-align: left;
+  }
+
+  .video-header {
+    float: right;
+    display: block;
+    margin: -240px 300px 0px 0px;
+    width: 30%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+
+@media screen and (min-width: 1600px) and (orientation: landscape) {
+  .video-header {
+    float: right;
+    display: block;
+    margin: -240px 300px 0px 0px;
+    width: 25%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+@media screen and (min-width: 1800px) and (orientation: landscape) {
+  /* nav */
+  .nav-home-logo-button {
+    display: inline;
+    padding: 20px 0px 0px 400px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: blue;
+  }
+  
+  .nav-home-button {
+    display: inline;
+    padding: 20px 0px 0px 5px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: blue;
+  }
+  
+  .download {
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    padding: 0px; 
+    margin: 17px 400px 0px 0px;
+  }
+  .download img {
+    height: 30px;
+    width: 90px;
+  }
+/* Header content */
+
+/* ***************** Carousel */
+.header-content {
+  width: 50%;
+  padding-top: 100px;
+  margin-left: 400px;
+}
+
+.sub-title {
+  padding: 90px 0px 0px 0px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: blue;
+  text-align: left;
+}
+
+.logo-map {
+  margin: -10px 0px 0px -20px;
+  width: 80px;
+  height: 80px;
+}
+/* ******************* */
+
+
+.title {
+  width: 50%;
+  padding: 0px 0px 0px 0px;
+  margin-left: 400px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  color: blue;
+  text-align: left;
+}
+
+.paragraph {
+  width: 50%;
+  margin: 20px 20px 0px 400px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: blue;
+  text-align: left;
+}
+  
+  .video-header {
+    float: right;
+    display: block;
+    margin: -240px 400px 0px 0px;
+    width: 20%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+
+@media screen and (min-width: 2400px) and (orientation: landscape) {
+  /* nav */
+  .nav-home-logo-button {
+    display: inline;
+    padding: 20px 0px 0px 530px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: blue;
+  }
+  
+  .nav-home-button {
+    display: inline;
+    padding: 20px 0px 0px 5px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: blue;
+  }
+  
+  .download {
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    padding: 0px; 
+    margin: 17px 530px 0px 0px;
+  }
+  .download img {
+    height: 30px;
+    width: 90px;
+  }
+/* Header content */
+
+/* ***************** Carousel */
+.header-content {
+  width: 50%;
+  padding-top: 100px;
+  margin-left: 530px;
+}
+
+.sub-title {
+  padding: 90px 0px 0px 0px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: blue;
+  text-align: left;
+}
+
+.logo-map {
+  margin: -10px 0px 0px -20px;
+  width: 80px;
+  height: 80px;
+}
+/* ******************* */
+
+
+.title {
+  width: 50%;
+  padding: 0px 0px 0px 0px;
+  margin-left: 530px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  color: blue;
+  text-align: left;
+}
+
+.paragraph {
+  width: 50%;
+  margin: 20px 20px 0px 530px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: blue;
+  text-align: left;
+}
+  
+  .video-header {
+    float: right;
+    display: block;
+    margin: -240px 530px 0px 0px;
+    width: 18%;
+    border-radius: 20px 20px 20px 20px;
+  }
+}

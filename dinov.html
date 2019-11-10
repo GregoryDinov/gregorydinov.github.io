@@ -12,7 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylesDinov.css">
   <link href="https://fonts.googleapis.com/css?family=Exo+2:100,300,400,500&display=swap" rel="stylesheet">
 
 </head>
@@ -26,24 +26,135 @@
     <button class="download"><img src="images/apple-store.png"></button>
   </div>
 
-  <div class="page-content">
-    <!-- <h1 class="title">2vénéments privés</h1> -->
-      <!-- <video autoplay muted loop>
-          <source src="videos/events.mp4" type="video/mp4">
-        </video> -->
+  <div class="header-content">
+    <div class="mySlides">
+        <h1 class="sub-title">Ventes privées</h1>
+        <img class="logo-map" src="images/logomapnoir.png" alt="Ventes privées">
+    </div>
+
+    <div class="mySlides">
+        <h1 class="sub-title">Événéments spéciaux</h1>
+        <img class="logo-map" src="images/logomapred.png" alt="Événéments spéciaux">
+    </div>
+
+    <div class="mySlides">
+        <h1 class="sub-title">Événéments privés</h1>
+        <img class="logo-map" src="images/logomapgold.png" alt="Événéments privés">
+    </div>
   </div>
 
-  <footer>
-    <h1 class="nav-pages"><a href="#/home">Dinov ></a></h1>
-    <h1 class="nav-pages"><a href="#/home">Commerces locaux ></a></h1>
-    <h1 class="nav-pages"><a href="#/home">Collectivités ></a></h1>
-    <h1 class="nav-pages"><a href="#/home">Influenceurs ></a></h1>
-  </footer>
+  <h1 class="title">les plus exclusifs au monde</h1>
+
+  <h2 class="paragraph">Sortez, ouvrez l'app, découvrez votre ville.<br>
+    Les  commerçants vous invitent en temps réel.</h2>
+
+  <video class="video-header" autoplay muted loop>
+    <source src="videos/events.mp4" type="video/mp4">
+  </video>
 </header>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.slim.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<div class="page-content-full-width-1">
+  <br>
+    <h2 class="sub-title1">Vous savez où</h2>
+
+    <div class="mySlides-1"><h1 class="title-for-light-background">déjeuner</h1></div>
+    <div class="mySlides-1"><h1 class="title-for-light-background">faire du shopping</h1></div>
+    <div class="mySlides-1"><h1 class="title-for-light-background">vous divertir</h1></div>
+    <div class="mySlides-1"><h1 class="title-for-light-background">dîner</h1></div>
+    <div class="mySlides-1"><h1 class="title-for-light-background">faire la fête</h1></div>
+    <div class="mySlides-1"><h1 class="title-for-light-background">dormir</h1></div>
+
+    <h2 class="paragraph-for-light-background">Du réveil jusqu'au couché.<br>
+      Dinov vous accompagne tout au long de votre journée</h2>
+  <br>
+</div>
+
+<div class="page-content-half-width">
+  <div class="page-content-2">
+    <br>
+      <h2 class="sub-title1-for-dark-background">Remercier votre hôte et</h2>
+      <h1 class="title-for-dark-background">débloquer l'avantage exclusif</h1>
+      <h2 class="paragraph-for-dark-background">Vous partagez déjà. Maintenant faites le pour une raison.<br>
+        Pendant votre participation il vous suffira de prendre une vidéo de l'événement.</h2>
+    <br>  
+  </div>
+
+  <div class="page-content-3">
+    <br>
+      <h2 class="sub-title1">Vous êtes invités par les commerçants</h2>
+      <h1 class="title-for-light-background">et non les commerces</h1>
+      <h2 class="paragraph-for-light-background">Rencontrer les créateurs des événements.<br>
+        Lors de ces événements vous retrouverez les habitants de votre ville pour vous amuser, vous rencontrer.</h2>
+    <br>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="btn-group">
+    <h1 class="nav-pages"><a href="dinov.html">Dinov ></a></h1>
+    <h1 class="nav-pages"><a href="business.html">Commerces locaux ></a></h1>
+  </div>
+
+  <div class="btn-group">
+    <h1 class="nav-pages"><a href="#/home">Influenceurs ></a></h1>
+    <h1 class="nav-pages"><a href="#/home">Collectivités ></a></h1>
+  </div>
+</div>
+
+
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.slim.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+  var myIndex1 = 0;
+  carousel1();
+  
+  function carousel1() {
+    var h;
+    var y = document.getElementsByClassName("mySlides-1");
+    for (h = 0; h < y.length; h++) {
+      y[h].style.display = "none";  
+    }
+    myIndex1++;
+    if (myIndex1 > y.length) {myIndex1 = 1}    
+    y[myIndex1-1].style.display = "block";
+    setTimeout(carousel1, 2000); // Change image every 2 seconds
+  }
+</script>
+
+<script>
+const [red, green, blue, alpha] = [0, 0, 50, 0.5]
+const section1 = document.querySelector('.nav-wrapper')
+
+window.addEventListener('scroll', () => {
+  let y = 1 + (window.scrollY || window.pageYOffset)
+  y = y < 1 ? 1 : y
+  const [r, g, b] = [red/y, green/y, blue/y].map(Math.round)
+  // section1.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
+  section1.style.backgroundColor = `rgb(0, 0, 50, 0.9)`
+})
+</script>
+
 
 </body>
 
