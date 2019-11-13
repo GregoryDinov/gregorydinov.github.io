@@ -1,0 +1,171 @@
+/* Global button button */
+.btn, .btn:hover, .btn:focus {
+    display: block;
+    margin: auto;
+    outline: none;
+    text-decoration: none;
+  }
+  button:hover, button:focus {
+    outline: none;
+    border: none;
+  }
+  a, a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: black;
+  }
+  
+/* ******************************* header frame*/
+  .masthead {
+      height: 100vh;
+      min-height: 500px;
+      /* background-image: url('images/paris1.png'); */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      /* background-image: url('images/goldendustSharpen25.png'); */
+      background-image: url('images/goldedust.png');
+  }
+  /* nav frame with content */
+  .nav-wrapper {
+    width: 100%;
+    position: fixed;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 15px;
+  }
+  .nav-home-logo-button {
+    display: inline;
+    padding: 20px 0px 0px 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    color: blue;
+  }
+  .nav-home-button {
+    display: inline;
+    padding: 20px 0px 0px 5px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: blue;
+  }
+  .download {
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    padding: 0px; 
+    margin: 17px 20px 0px 0px;
+  }
+  .download img {
+    height: 30px;
+    width: 90px;
+  }
+/* ******************************* */
+
+/* ******************************* Only for header content */
+
+/* *************** For business page */
+  .title-header {
+    padding: 90px 20px 0px 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: blue;
+    text-align: center;
+  }
+
+  .paragraph-header {
+    padding: 20px 20px 0px 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+
+  #timer {
+    padding: 0px 20px 0px 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: blue;
+    text-align: center;
+  }
+/* ******************************* */
+
+/* ******************************* Element For light Page content */
+.content-container {
+    width: 100%;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    background-color: rgba(10, 10, 10, 1);
+    border-radius: 20px 20px 0px 0px;
+    border-width: 10;
+  }
+  .paragraph {
+    padding: 0px 20px 0px 20px;
+    margin-top: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    /* color: blue; */
+    color: white;
+    text-align: center;
+  }
+  .paragraph-1 {
+    padding: 0px 20px 0px 20px;
+    margin-top: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    /* color: blue; */
+    color: white;
+    text-align: center;
+  }
+  .title {
+    margin: -5px 20px 0px 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: blue;
+    text-align: center;
+  }
+/* ******************************* */
+
+/* ******************************* Element For dark Page content */
+.content-container-dark {
+    width: 100%;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    background-color: black;
+    border-radius: 20px 20px 0px 0px;
+  }
+/* ******************************* */
+
+/* ******************************* footer */
+.footer {
+    border-radius: 20px 20px 0px 0px;
+     padding: 10px 0px 0px 0px;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.9);
+     margin-top: -20px;
+  }
+  .nav-pages {
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .btn-group {
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    margin: auto;
+  }
+/* ******************************* */
