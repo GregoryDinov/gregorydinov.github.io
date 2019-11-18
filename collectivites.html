@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Dinov</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="collectivites.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="masthead">
+  <div class="nav-wrapper">
+      <h1 class="nav-home-button"><a href="index.html">dinov events</a></h1>
+      <button class="download"><img src="images/apple-store.png"></button>
+  </div>
+  
+
+<br><br><br><br>
+      <h1 class="title-header">Développer l'activité économique locale</h1>
+
+<br>
+      <h1 class="button"><a href="#strategie">Votre stratégie pour dynamiser votre ville ></a></h1>
+      <h1 class="button"><a href="#action">Action à mener ></a></h1>
+<br><br><br><br>
+</header>
+
+<!-- PAGE CONTENT -->
+
+<div class="page-content-1">
+<br id="strategie"><br><br><br>
+      <h1 class="title-page-content-1">Plus d'événements, plus de visiteurs</h1>
+<br><br>
+  <div class="page-content">
+    <div class="mySlides">
+      <img class="logo-map-page" src="images/logomapnoir.png" alt="Ventes privées">
+      <h1 class="sub-title-page">Ventes privées</h1>
+    </div>
+
+    <div class="mySlides">
+      <img class="logo-map-page" src="images/logomapred.png" alt="Événéments spéciaux"> 
+      <h1 class="sub-title-page">Événements spéciaux</h1> 
+    </div>
+
+    <div class="mySlides">
+      <img class="logo-map-page" src="images/logomapgold.png" alt="Événéments privés">
+      <h1 class="sub-title-page">Événements privés</h1>
+    </div>
+  </div>
+
+  <h2 class="paragraph-page-content-1">Proposés par vos commerçants aux habitants et touristes de votre ville.</h2>
+<br>
+      <video class="video-page-content-1" autoplay muted loop>
+          <source src="videos/events.mp4" type="video/mp4">
+      </video>
+<br><br>
+      <h2 class="paragraph-page-content-1">Votre rôle est d'amener du flux, des visiteurs.<br>
+        Dinov regroupe diverses activités présentent sur votre territoire afin de satisfaire au maximum les demandes de tous vos habitants.<br>
+        La spontanéité et la limitation des événements dans le temps (maximum un jour)
+            incitent les habitants à sortir.</h2>
+<br><br><br><br>
+</div>
+
+<div class="page-content-2">
+<br id="action"><br><br><br>
+      <h1 class="title-page-content-1">Rassembler vos commerçants</h1>
+          
+      <h2 class="paragraph-page-content-1">
+        Nous vous aidons dans cette démarche, le fondateur se déplacera.<br>Veuillez nous contacter en indiquant votre nom, votre numéro ainsi que votre ville.</h2>
+<br>            
+      <h1 class="button"><a href="mailto:partenaire@gmail.com?Subject=Message%20adressé%20exclusivement%20à%20Grégory%20Dinov">Envoyer ></a></h1>
+<br><br><br><br>
+</div>
+
+<div class="page-content-3">
+<br><br><br><br>
+      <h1 class="title-page-content-1">Découvrir l'application pour les habitants et touristes</h1>
+<br>            
+      <h1 class="button"><a href="dinov.html">Découvrir ></a></h1>
+<br><br><br><br>
+</div>
+
+<div class="page-content-4">
+<br><br><br><br>
+      <h1 class="title-page-content-1">Découvrir l'application pour les commerçants</h1>
+<br>            
+      <h1 class="button"><a href="commerces-locaux.html">Découvrir ></a></h1>
+<br><br><br><br>
+</div>
+
+<!-- FOOTER -->
+
+<div class="grid-container">
+    <div class="grid-item"><h1 class="nav-btn"><a href="dinov.html">Dinov ></a></h1></div>
+    <div class="grid-item"><h1 class="nav-btn"><a href="influenceur.html">Influenceurs ></a></h1></div>
+    <div class="grid-item"><h1 class="nav-btn"><a href="commerces-locaux.html">Commerçants ></a></h1></div>
+    <div class="grid-item"><h1 class="nav-btn"><a href="collectivites.html">Collectivités ></a></h1></div>
+</div>
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
+
+</body>
+      
+</html>

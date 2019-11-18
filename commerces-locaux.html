@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Dinov</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="commerces-locaux.css">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="masthead">
+  <div class="nav-wrapper">
+    <h1 class="nav-home-button"><a href="index.html">dinov events</a></h1>
+    <button class="download"><img src="images/apple-store.png"></button>
+  </div>
+
+<br><br><br><br>
+
+  <h1 class="title-header">Un programme de fidélité comme vous n'en avez jamais vu.</h1>
+  
+
+<br><br>
+
+    <h2 class="paragraph-header">Proposez à vos habitués, aux habitants de votre ville et aux touristes des</h2>
+
+  <div class="header-content">
+    <div class="mySlides">
+      <h1 class="sub-title-header">Ventes privées</h1>
+      <img class="logo-map" src="images/logomapnoir.png" alt="Ventes privées">
+    </div>
+
+    <div class="mySlides">
+      <h1 class="sub-title-header">Événements spéciaux</h1>
+      <img class="logo-map" src="images/logomapred.png" alt="Événéments spéciaux">  
+    </div>
+
+    <div class="mySlides">
+      <h1 class="sub-title-header">Événements privés</h1>
+      <img class="logo-map" src="images/logomapgold.png" alt="Événéments privés">
+    </div>
+  </div>
+
+<br>
+
+  <video class="video-header" autoplay muted loop controls>
+      <source src="videos/events.mp4" type="video/mp4">
+  </video>
+
+<br><br><br><br>
+
+</header>
+
+<!-- PAGE CONTENT -->
+
+<div class="page-content-1">
+<br><br><br><br>
+      <h1 class="title-page-content-1">Une action de communication gratuite et hyperciblée</h1>
+  
+      <!-- <h2 class="paragraph-page-content-2">Le succès de votre commerce est basé sur les recommandations</h2> -->
+      <h2 class="paragraph-page-content-1">Le succès de votre commerce est basé sur les recommandations.<br><br>
+        Une contrepartie obligatoire pour vos participants.<br>
+        Le partage d'une vidéo de votre événement, avec votre hashtag et votre localisation sur leurs réseaux sociaux.
+        <br><br>C'est action débloquera et validera l'offre promotionnelle donnée.</h2>
+<br><br>
+      <video class="video-page-content-1" autoplay muted loop>
+          <source src="videos/events.mp4" type="video/mp4">
+      </video>
+<br><br><br><br>
+</div>
+
+<div class="page-content-2">
+<br><br><br><br>
+      <h1 class="title-page-content-1">Créer un événement en 30 sec</h1>
+      
+      <h2 class="paragraph-page-content-1">Plus rapide, plus impactant.<br><br>
+        Le manager ou vendeur créer l'événement, il représente votre enseigne auprès de notre communauté. Choisissez le commerce associé, les horaires, votre hasthtag et votre vidéo.</h2>
+<br><br>
+      <video class="video-page-content-2" autoplay muted loop>
+          <source src="videos/events.mp4" type="video/mp4">
+      </video>
+<br><br><br><br>
+</div>
+
+<div class="page-content-3">
+<br><br><br><br>
+      <h1 class="title-page-content-1">La ville est réunie en Dinov</h1>
+          
+      <h2 class="paragraph-page-content-1">Hommes, femmes et enfants.<br><br>
+            Dinov réunie une communauté locale de consommateurs et vous en donne l'accès gratuitement à condition de créer chaque jour un nouvel événement.</h2>
+<br><br>
+      <video class="video-page-content-3" autoplay muted loop>
+          <source src="videos/events.mp4" type="video/mp4">
+      </video>
+<br><br><br><br>
+</div>
+    
+<!-- FOOTER -->
+
+<div class="grid-container">
+    <div class="grid-item"><h1 class="nav-btn"><a href="dinov.html">Dinov ></a></h1></div>
+    <div class="grid-item"><h1 class="nav-btn"><a href="influenceur.html">Influenceurs ></a></h1></div>
+    <div class="grid-item"><h1 class="nav-btn"><a href="commerces-locaux.html">Commerçants ></a></h1></div>
+    <div class="grid-item"><h1 class="nav-btn"><a href="collectivites.html">Collectivités ></a></h1></div>
+</div>
+
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+</script>
+
+</body>
+
+</html>
